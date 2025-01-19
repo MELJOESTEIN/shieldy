@@ -2308,16 +2308,17 @@ tar-stream@^2.1.4:
     inherits "^2.0.3"
     readable-stream "^3.1.1"
 
-"telegraf@git+https://github.com/backmeupplz/telegraf.git#ccef1dc6c811359d4d36667b57237bfba74841b1":
-  version "3.38.0"
-  resolved "git+https://github.com/backmeupplz/telegraf.git#ccef1dc6c811359d4d36667b57237bfba74841b1"
+telegraf@3.40.0:
+  version "3.40.0"
+  resolved "https://registry.yarnpkg.com/telegraf/-/telegraf-3.40.0.tgz#2234eaf7850b0767b2975976e4d264fe421d8c03"
+  integrity sha512-wulVjRHrX2zQwbk1/jzg3Ll9Kr0xC7ofXsRPJgcV2yoCFx5oSU41ZaDKNRPsLhjXxW4s9iNM2S2N/ESyiZxTMQ==
   dependencies:
     debug "^4.0.1"
     minimist "^1.2.0"
     module-alias "^2.2.2"
     node-fetch "^2.2.0"
     sandwich-stream "^2.0.1"
-    typegram "^3.1.5"
+    typegram "^3.10.0"
 
 telegram-typings@^5.0.0:
   version "5.0.0"
@@ -2405,10 +2406,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typegram@^3.1.5:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/typegram/-/typegram-3.2.2.tgz#e6da8b5f17d34271e132c6e4fe1b3c28c7981462"
-  integrity sha512-PC7MclSZcLnCEnflubX61/YEwZph98EHbCsrL9tFhU5bZYz3uXm3Mc6iseKjiS3VyKOCCyoT3A4ZDtPkoYyucg==
+typegram@^3.10.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/typegram/-/typegram-3.12.0.tgz#e35e2e50ced1c2b5775176c5b3be5dfffdf03a1a"
+  integrity sha512-/VrU0sJv8BdOsBIpYT4w35C7dPg5YyKP6fLiYN9qYXRZ86TVIiw0ZypkzElTAfDVsJtJSluGAufUrcX7VRSIYQ==
 
 typescript@^4.0.3:
   version "4.0.3"
